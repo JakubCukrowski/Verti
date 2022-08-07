@@ -1,8 +1,8 @@
-4404
+4406
 85C:\Users\jdcuk\Desktop\01_Verti\node_modules\@swc\helpers\lib\_array_without_holes.js133043735871890475 0
 87C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\markdown-ansi\lib\markdown-ansi.js133043735871681772 0
 79C:\Users\jdcuk\Desktop\01_Verti\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133043735779152657 0
-37C:\Users\jdcuk\Desktop\01_Verti\.idea133043735153081044 1
+37C:\Users\jdcuk\Desktop\01_Verti\.idea133043741358503115 1
 58C:\Users\jdcuk\Desktop\01_Verti\node_modules\yaml\util.mjs133043735781572654 0
 67C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\compressor-raw133043735871826853 1
 55C:\Users\jdcuk\Desktop\01_Verti\node_modules\semver\bin133043735777300213 1
@@ -16,10 +16,10 @@
 85C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\reporter-cli\src\bundleReport.js133043735871671783 0
 69C:\Users\jdcuk\Desktop\01_Verti\node_modules\css-tree\data\patch.json133043735782762649 0
 57C:\Users\jdcuk\Desktop\01_Verti\node_modules\entities\lib133043735780452654 1
-36C:\Users\jdcuk\Desktop\01_Verti\scss133043733524657904 1
+36C:\Users\jdcuk\Desktop\01_Verti\scss133043741023860035 1
 77C:\Users\jdcuk\Desktop\01_Verti\node_modules\css-what\lib\commonjs\index.d.ts133043735780032654 0
 100C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.c133043735873157539 0
-36C:\Users\jdcuk\Desktop\01_Verti\dist133043737247926644 1
+36C:\Users\jdcuk\Desktop\01_Verti\dist133043741358693113 1
 71C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\graph\src\Graph.js133043735872189858 0
 53C:\Users\jdcuk\Desktop\01_Verti\node_modules\svgo\lib133043735782182657 1
 76C:\Users\jdcuk\Desktop\01_Verti\node_modules\source-map\lib\binary-search.js133043735778782655 0
@@ -64,7 +64,7 @@
 59C:\Users\jdcuk\Desktop\01_Verti\scss\generics\_default.scss133042682384698294 0
 77C:\Users\jdcuk\Desktop\01_Verti\node_modules\nth-check\lib\esm\index.d.ts.map133043735779432657 0
 64C:\Users\jdcuk\Desktop\01_Verti\node_modules\color-name\index.js133043735777280212 0
-44C:\Users\jdcuk\Desktop\01_Verti\package.json133043737197828579 0
+44C:\Users\jdcuk\Desktop\01_Verti\package.json133043742691790499 0
 97C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\passive-event-listener.js133043735785351819 0
 75C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1133043735871571771 1
 76C:\Users\jdcuk\Desktop\01_Verti\node_modules\css-tree\lib\parser\sequence.js133043735782502653 0
@@ -76,11 +76,19 @@
 57C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\read.js133043735873837160 0
 88C:\Users\jdcuk\Desktop\01_Verti\node_modules\source-map-support\register-hook-require.js133043735777471607 0
 89C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\feature-policy.js133043735783915405 0
-45C:\Users\jdcuk\Desktop\01_Verti\scss\generics133043733524727904 1
+45C:\Users\jdcuk\Desktop\01_Verti\scss\generics133043741357622983 1
 101C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\runtime-react-refresh\lib\ReactRefreshRuntime.js133043735871671783 0
 62C:\Users\jdcuk\Desktop\01_Verti\node_modules\json5\lib\util.js133043735779232656 0
 87C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lz4\lib\liblz4-dll.rc.in133043735873717160 0
-46C:\Users\jdcuk\Desktop\01_Verti\scss\main.scss133043702809818117 0
+46C:\Users\jdcuk\Desktop\01_Verti\scss\main.scss133043741023850048 0
+87C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\console-time.js133043735782482652 0
+81C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\watcher\src\watchman\BSER.hh133043735780012654 0
+54C:\Users\jdcuk\Desktop\01_Verti\node_modules\immutable133043737067350687 1
+65C:\Users\jdcuk\Desktop\01_Verti\node_modules\yaml\browser\util.js133043735781252653 0
+75C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\compressor-raw\LICENSE133043735871591781 0
+54C:\Users\jdcuk\Desktop\01_Verti\node_modules\@trysound133043735768776211 1
+55C:\Users\jdcuk\Desktop\01_Verti\scss\generics\reset.css133043741357612987 0
+88C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-js\lib\JSTransformer.js133043735871900472 0
 144C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-down\foo\bar\baz133043735873577158 1
 76C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\regions\CX.js133043735783606942 0
 59C:\Users\jdcuk\Desktop\01_Verti\node_modules\svgo\README.md133043735782152659 0
@@ -181,12 +189,6 @@
 69C:\Users\jdcuk\Desktop\01_Verti\node_modules\node-addon-api\nothing.c133043735776874402 0
 89C:\Users\jdcuk\Desktop\01_Verti\node_modules\@swc\helpers\lib\_interop_require_default.js133043735872986293 0
 62C:\Users\jdcuk\Desktop\01_Verti\node_modules\@msgpackr-extract133043737197548547 1
-87C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\console-time.js133043735782482652 0
-81C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\watcher\src\watchman\BSER.hh133043735780012654 0
-54C:\Users\jdcuk\Desktop\01_Verti\node_modules\immutable133043737067350687 1
-65C:\Users\jdcuk\Desktop\01_Verti\node_modules\yaml\browser\util.js133043735781252653 0
-75C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\compressor-raw\LICENSE133043735871591781 0
-54C:\Users\jdcuk\Desktop\01_Verti\node_modules\@trysound133043735768776211 1
 76C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\regions\QA.js133043735785544242 0
 93C:\Users\jdcuk\Desktop\01_Verti\node_modules\@swc\helpers\lib\_check_private_redeclaration.js133043735872189858 0
 61C:\Users\jdcuk\Desktop\01_Verti\node_modules\svgo\lib\xast.js133043735782112659 0
@@ -2818,8 +2820,8 @@
 76C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\regions\AG.js133043735779132656 0
 80C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\regions\alt-an.js133043735779832654 0
 94C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\source-map\parcel_sourcemap_node\build.rs133043735782212655 0
-79C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\core\lib\Transformation.js133043735873996073 0
 75C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\codeframe\package.json133043735872599856 0
+79C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\core\lib\Transformation.js133043735873996073 0
 80C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\regions\alt-as.js133043735779912657 0
 80C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\regions\alt-oc.js133043735780112659 0
 98C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\css-overscroll-behavior.js133043735783292654 0
@@ -3258,7 +3260,7 @@
 82C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-babel\lib\flow.js133043735872179863 0
 129C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-glob\package.json133043735873467534 0
 97C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\link-rel-modulepreload.js133043735784817022 0
-55C:\Users\jdcuk\Desktop\01_Verti\dist\index.574c7455.css133043737247366646 0
+55C:\Users\jdcuk\Desktop\01_Verti\dist\index.574c7455.css133043741358673132 0
 92C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\link-rel-prefetch.js133043735784826921 0
 93C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\link-rel-prerender.js133043735784846923 0
 92C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\loading-lazy-attr.js133043735784856917 0
@@ -3806,7 +3808,6 @@
 98C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-js\parcel-swc.win32-x64-msvc.node133043735875560803 0
 91C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-js\lib\esmodule-helpers.js133043735871691784 0
 79C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\core\lib\CommittedAsset.js133043735873006290 0
-88C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-js\lib\JSTransformer.js133043735871900472 0
 74C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-image\lib133043735871947084 1
 78C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-image\LICENSE133043735871561754 0
 83C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-image\package.json133043735872065722 0
@@ -4030,6 +4031,7 @@
 122C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-module\module.js133043735873177532 0
 127C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main-directory\nested133043735872829742 1
 133C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main-directory\package.json133043735873517159 0
+51C:\Users\jdcuk\Desktop\01_Verti\.idea\workspace.xml133043741358503115 0
 118C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main\main.js133043735873127533 0
 126C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\bar.js133043735872179863 0
 132C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\package.json133043735873487173 0
@@ -4399,7 +4401,7 @@
 60C:\Users\jdcuk\Desktop\01_Verti\node_modules\.bin\semver.cmd133043735786669334 0
 58C:\Users\jdcuk\Desktop\01_Verti\node_modules\.bin\svgo.cmd133043735786669334 0
 56C:\Users\jdcuk\Desktop\01_Verti\node_modules\.bin\terser133043735786669334 0
-59C:\Users\jdcuk\Desktop\01_Verti\dist\index.574c7455.css.map133043737247426647 0
+59C:\Users\jdcuk\Desktop\01_Verti\dist\index.574c7455.css.map133043741358683126 0
 55C:\Users\jdcuk\Desktop\01_Verti\dist\pic01.bab3a2e5.jpg133043737247426647 0
 50C:\Users\jdcuk\Desktop\01_Verti\.idea\01_Verti.iml133043735151641046 0
 49C:\Users\jdcuk\Desktop\01_Verti\.idea\modules.xml133043735151741043 0
