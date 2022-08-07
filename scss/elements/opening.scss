@@ -1,0 +1,31 @@
+.section_second {
+  img {
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+  }
+  .content_box {
+    background-color: white;
+    border-radius: 1em;
+    margin: 20px 0;
+  }
+  .inner {
+    padding: 12px;
+    h2 {
+      font-size: 1.35em;
+      color: $colorText;
+      font-weight: 800;
+    }
+    h3 {
+      color: #696969;
+      font-weight: 300;
+      font-size: 0.9em;
+      margin-bottom: 0.8em;
+    }
+    p {
+      color: #696969;
+      font-weight: 300;
+      font-size: 0.9em;
+    }
+  }
+}

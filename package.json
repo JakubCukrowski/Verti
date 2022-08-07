@@ -1,0 +1,21 @@
+{
+  "name": "01_verti",
+  "version": "1.0.0",
+  "source": "index.html",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "scss-reset": "^1.2.2"
+  }
+}
