@@ -138,13 +138,9 @@ nav a {
   position: absolute;
 }
 
-ul {
+.menu {
   transition: all .3s;
   display: none;
-}
-
-ul li {
-  transition: all .3s;
 }
 
 .banner {
@@ -329,6 +325,42 @@ body {
   min-width: 10%;
   border-radius: .7em;
   margin-bottom: 1em;
+}
+
+.footer-wrapper {
+  padding: 12px;
+}
+
+.footer-wrapper h2 {
+  color: #444;
+  text-align: left;
+  margin: 1.4em 0;
+  font-size: 13pt;
+  font-weight: 800;
+}
+
+.footer-wrapper .stuff {
+  font-size: .9em;
+  line-height: 2.4em;
+}
+
+.footer-wrapper .stuff a {
+  color: #696969;
+  text-align: left;
+  font-weight: 100;
+}
+
+.icons {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: .8em;
+  display: flex;
+}
+
+.icons .fa-brands {
+  color: #444;
+  font-size: 2.5em;
 }
 
 /*# sourceMappingURL=index.574c7455.css.map */

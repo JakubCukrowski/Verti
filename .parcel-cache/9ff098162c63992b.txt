@@ -1,8 +1,8 @@
-4410
+4411
 85C:\Users\jdcuk\Desktop\01_Verti\node_modules\@swc\helpers\lib\_array_without_holes.js133043735871890475 0
 87C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\markdown-ansi\lib\markdown-ansi.js133043735871681772 0
 79C:\Users\jdcuk\Desktop\01_Verti\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133043735779152657 0
-37C:\Users\jdcuk\Desktop\01_Verti\.idea133044568547925223 1
+37C:\Users\jdcuk\Desktop\01_Verti\.idea133044579967539803 1
 58C:\Users\jdcuk\Desktop\01_Verti\node_modules\yaml\util.mjs133043735781572654 0
 67C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\compressor-raw133043735871826853 1
 55C:\Users\jdcuk\Desktop\01_Verti\node_modules\semver\bin133043735777300213 1
@@ -16,10 +16,10 @@
 85C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\reporter-cli\src\bundleReport.js133043735871671783 0
 69C:\Users\jdcuk\Desktop\01_Verti\node_modules\css-tree\data\patch.json133043735782762649 0
 57C:\Users\jdcuk\Desktop\01_Verti\node_modules\entities\lib133043735780452654 1
-36C:\Users\jdcuk\Desktop\01_Verti\scss133043741023860035 1
+36C:\Users\jdcuk\Desktop\01_Verti\scss133044575130354315 1
 77C:\Users\jdcuk\Desktop\01_Verti\node_modules\css-what\lib\commonjs\index.d.ts133043735780032654 0
 100C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.c133043735873157539 0
-36C:\Users\jdcuk\Desktop\01_Verti\dist133044569922057629 1
+36C:\Users\jdcuk\Desktop\01_Verti\dist133044581742234075 1
 71C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\graph\src\Graph.js133043735872189858 0
 53C:\Users\jdcuk\Desktop\01_Verti\node_modules\svgo\lib133043735782182657 1
 76C:\Users\jdcuk\Desktop\01_Verti\node_modules\source-map\lib\binary-search.js133043735778782655 0
@@ -35,7 +35,7 @@
 70C:\Users\jdcuk\Desktop\01_Verti\node_modules\css-select\lib\compile.js133043735778137503 0
 82C:\Users\jdcuk\Desktop\01_Verti\node_modules\terser\node_modules\commander\typings133043735778442657 1
 90C:\Users\jdcuk\Desktop\01_Verti\node_modules\csso\lib\restructure\2-initialMergeRuleset.js133043735777677503 0
-42C:\Users\jdcuk\Desktop\01_Verti\index.html133044569334055788 0
+42C:\Users\jdcuk\Desktop\01_Verti\index.html133044581741340495 0
 84C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\core\test\TargetRequest.test.js133043735873976765 0
 41C:\Users\jdcuk\Desktop\01_Verti\README.md133043734506865889 0
 106C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\client-hints-dpr-width-viewport.js133043735782392652 0
@@ -71,7 +71,7 @@
 55C:\Users\jdcuk\Desktop\01_Verti\node_modules\is-extglob133043737067178069 1
 62C:\Users\jdcuk\Desktop\01_Verti\node_modules\csso\lib\usage.js133043735781252653 0
 50C:\Users\jdcuk\Desktop\01_Verti\node_modules\@lmdb133043737197548547 1
-45C:\Users\jdcuk\Desktop\01_Verti\scss\elements133044570337874935 1
+45C:\Users\jdcuk\Desktop\01_Verti\scss\elements133044575989836229 1
 78C:\Users\jdcuk\Desktop\01_Verti\node_modules\csso\lib\replace\property\font.js133043735780682654 0
 57C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\read.js133043735873837160 0
 88C:\Users\jdcuk\Desktop\01_Verti\node_modules\source-map-support\register-hook-require.js133043735777471607 0
@@ -80,7 +80,7 @@
 101C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\runtime-react-refresh\lib\ReactRefreshRuntime.js133043735871671783 0
 62C:\Users\jdcuk\Desktop\01_Verti\node_modules\json5\lib\util.js133043735779232656 0
 87C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lz4\lib\liblz4-dll.rc.in133043735873717160 0
-46C:\Users\jdcuk\Desktop\01_Verti\scss\main.scss133043741023850048 0
+46C:\Users\jdcuk\Desktop\01_Verti\scss\main.scss133044575130352913 0
 87C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\console-time.js133043735782482652 0
 81C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\watcher\src\watchman\BSER.hh133043735780012654 0
 54C:\Users\jdcuk\Desktop\01_Verti\node_modules\immutable133043737067350687 1
@@ -141,9 +141,12 @@
 74C:\Users\jdcuk\Desktop\01_Verti\node_modules\svgo\plugins\convertColors.js133043735779902659 0
 75C:\Users\jdcuk\Desktop\01_Verti\node_modules\immutable\dist\immutable.es.js133043737067258067 0
 64C:\Users\jdcuk\Desktop\01_Verti\node_modules\scss-reset\test\css133043737197329273 1
-59C:\Users\jdcuk\Desktop\01_Verti\scss\elements\_buttons.scss133044570337874935 0
+59C:\Users\jdcuk\Desktop\01_Verti\scss\elements\_buttons.scss133044570929811953 0
 82C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\ch-unit.js133043735782292658 0
 127C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\a133043735872936290 1
+58C:\Users\jdcuk\Desktop\01_Verti\scss\elements\_footer.scss133044575989836229 0
+68C:\Users\jdcuk\Desktop\01_Verti\node_modules\css-select\lib\types.js133043735779422654 0
+99C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb.c133043735873057535 0
 85C:\Users\jdcuk\Desktop\01_Verti\node_modules\type-fest\source\conditional-except.d.ts133043735778942654 0
 50C:\Users\jdcuk\Desktop\01_Verti\node_modules\chalk133043735778572662 1
 69C:\Users\jdcuk\Desktop\01_Verti\node_modules\msgpackr-extract\LICENSE133043735777757503 0
@@ -560,7 +563,7 @@
 86C:\Users\jdcuk\Desktop\01_Verti\node_modules\source-map-js\lib\source-map-generator.js133043737067301696 0
 91C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\core\lib\requests\ValidationRequest.js133043735874070812 0
 69C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-html133043735872065722 1
-57C:\Users\jdcuk\Desktop\01_Verti\dist\01_Verti.3464ddca.js133044505193802931 0
+57C:\Users\jdcuk\Desktop\01_Verti\dist\01_Verti.3464ddca.js133044570387803664 0
 99C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest_remap.c133043735873217539 0
 58C:\Users\jdcuk\Desktop\01_Verti\node_modules\source-map-js133043737067360678 1
 66C:\Users\jdcuk\Desktop\01_Verti\node_modules\xxhash-wasm\README.md133043735778962653 0
@@ -845,7 +848,6 @@
 84C:\Users\jdcuk\Desktop\01_Verti\node_modules\terser\node_modules\commander\Readme.md133043735778252657 0
 68C:\Users\jdcuk\Desktop\01_Verti\node_modules\weak-lru-cache\index.js133043735777687503 0
 82C:\Users\jdcuk\Desktop\01_Verti\node_modules\css-tree\lib\syntax\pseudo\slotted.js133043735782512657 0
-102C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest4.c133043735873267531 0
 123C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-fallback\index.js133043735872799741 0
 64C:\Users\jdcuk\Desktop\01_Verti\node_modules\get-port\index.d.ts133043735777330214 0
 64C:\Users\jdcuk\Desktop\01_Verti\node_modules\stable\package.json133043735777014186 0
@@ -1194,7 +1196,7 @@
 82C:\Users\jdcuk\Desktop\01_Verti\node_modules\terser\lib\compress\native-objects.js133043735781142654 0
 79C:\Users\jdcuk\Desktop\01_Verti\node_modules\terser\lib\compress\reduce-vars.js133043735781432654 0
 82C:\Users\jdcuk\Desktop\01_Verti\node_modules\svgo\lib\svgo\css-select-adapter.d.ts133043735782172653 0
-55C:\Users\jdcuk\Desktop\01_Verti\dist\pic06.8c6c21cf.jpg133044550403696368 0
+55C:\Users\jdcuk\Desktop\01_Verti\dist\pic06.8c6c21cf.jpg133044570387383684 0
 62C:\Users\jdcuk\Desktop\01_Verti\node_modules\parcel\src\bin.js133043735871751772 0
 89C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-html\lib\dependencies.js133043735871661778 0
 80C:\Users\jdcuk\Desktop\01_Verti\node_modules\terser\lib\compress\tighten-body.js133043735781602656 0
@@ -1718,7 +1720,7 @@
 76C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\regions\SC.js133043735785665941 0
 64C:\Users\jdcuk\Desktop\01_Verti\node_modules\path-type\readme.md133043735778087519 0
 93C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb133043735874006093 1
-55C:\Users\jdcuk\Desktop\01_Verti\dist\pic02.23db3259.jpg133044505193802931 0
+55C:\Users\jdcuk\Desktop\01_Verti\dist\pic02.23db3259.jpg133044570387763653 0
 72C:\Users\jdcuk\Desktop\01_Verti\node_modules\node-addon-api\node_api.gyp133043735777220226 0
 63C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\node-index.js133043735873807160 0
 64C:\Users\jdcuk\Desktop\01_Verti\node_modules\parse-json\index.js133043735777270213 0
@@ -1991,8 +1993,6 @@
 92C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\core\src\requests\ParcelBuildRequest.js133043735873567165 0
 103C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\intro.doc133043735873527172 0
 102C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\Makefile133043735872279858 0
-68C:\Users\jdcuk\Desktop\01_Verti\node_modules\css-select\lib\types.js133043735779422654 0
-99C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb.c133043735873057535 0
 104C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_copy.1133043735872399867 0
 76C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\regions\TT.js133043735786071047 0
 82C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-sass\package.json133043737067218069 0
@@ -2007,6 +2007,7 @@
 93C:\Users\jdcuk\Desktop\01_Verti\node_modules\css-select\lib\pseudo-selectors\filters.d.ts.map133043735779852655 0
 104C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.c133043735872946290 0
 66C:\Users\jdcuk\Desktop\01_Verti\node_modules\error-ex\package.json133043735777041322 0
+102C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest4.c133043735873267531 0
 102C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest5.c133043735873287533 0
 108C:\Users\jdcuk\Desktop\01_Verti\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\sample-bdb.txt133043735873996073 0
 93C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\orientation-sensor.js133043735785313698 0
@@ -2366,7 +2367,7 @@
 55C:\Users\jdcuk\Desktop\01_Verti\node_modules\dotenv\lib133043735778722657 1
 90C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-postcss\lib\loadConfig.js133043735871836847 0
 64C:\Users\jdcuk\Desktop\01_Verti\node_modules\dotenv\package.json133043735777080225 0
-61C:\Users\jdcuk\Desktop\01_Verti\dist\01_Verti.3464ddca.js.map133044505193882758 0
+61C:\Users\jdcuk\Desktop\01_Verti\dist\01_Verti.3464ddca.js.map133044570387823653 0
 70C:\Users\jdcuk\Desktop\01_Verti\node_modules\dotenv\lib\env-options.js133043735778602658 0
 76C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\regions\KR.js133043735784737243 0
 61C:\Users\jdcuk\Desktop\01_Verti\node_modules\domutils\LICENSE133043735777024213 0
@@ -2471,7 +2472,7 @@
 101C:\Users\jdcuk\Desktop\01_Verti\node_modules\dom-serializer\node_modules\entities\lib\encode.d.ts.map133043735779402655 0
 95C:\Users\jdcuk\Desktop\01_Verti\node_modules\dom-serializer\node_modules\entities\lib\encode.js133043735777937548 0
 104C:\Users\jdcuk\Desktop\01_Verti\node_modules\dom-serializer\node_modules\entities\lib\maps\entities.json133043735778742662 0
-55C:\Users\jdcuk\Desktop\01_Verti\dist\pic05.09d8e0c2.jpg133044549971376189 0
+55C:\Users\jdcuk\Desktop\01_Verti\dist\pic05.09d8e0c2.jpg133044570387763653 0
 76C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\regions\CY.js133043735783616940 0
 102C:\Users\jdcuk\Desktop\01_Verti\node_modules\dom-serializer\node_modules\entities\lib\maps\legacy.json133043735778862656 0
 90C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\iframe-seamless.js133043735784365408 0
@@ -3262,7 +3263,7 @@
 82C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\transformer-babel\lib\flow.js133043735872179863 0
 129C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-glob\package.json133043735873467534 0
 97C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\link-rel-modulepreload.js133043735784817022 0
-55C:\Users\jdcuk\Desktop\01_Verti\dist\index.574c7455.css133044569922027627 0
+55C:\Users\jdcuk\Desktop\01_Verti\dist\index.574c7455.css133044575991239477 0
 92C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\link-rel-prefetch.js133043735784826921 0
 93C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\link-rel-prerender.js133043735784846923 0
 92C:\Users\jdcuk\Desktop\01_Verti\node_modules\caniuse-lite\data\features\loading-lazy-attr.js133043735784856917 0
@@ -3476,7 +3477,7 @@
 61C:\Users\jdcuk\Desktop\01_Verti\node_modules\base-x\README.md133043735777927505 0
 64C:\Users\jdcuk\Desktop\01_Verti\node_modules\anymatch\index.d.ts133043737067228070 0
 88C:\Users\jdcuk\Desktop\01_Verti\node_modules\@swc\helpers\src\_sliced_to_array_loose.mjs133043735873926771 0
-55C:\Users\jdcuk\Desktop\01_Verti\dist\pic03.d3e6ea35.jpg133044505193802931 0
+55C:\Users\jdcuk\Desktop\01_Verti\dist\pic03.d3e6ea35.jpg133044570387383684 0
 62C:\Users\jdcuk\Desktop\01_Verti\node_modules\anymatch\index.js133043737067128081 0
 61C:\Users\jdcuk\Desktop\01_Verti\node_modules\anymatch\LICENSE133043737067088069 0
 66C:\Users\jdcuk\Desktop\01_Verti\node_modules\anymatch\package.json133043737067168077 0
@@ -3529,7 +3530,7 @@
 98C:\Users\jdcuk\Desktop\01_Verti\node_modules\@swc\helpers\src\_class_private_field_destructure.mjs133043735873557167 0
 90C:\Users\jdcuk\Desktop\01_Verti\node_modules\@swc\helpers\src\_class_private_field_get.mjs133043735873567165 0
 91C:\Users\jdcuk\Desktop\01_Verti\node_modules\@swc\helpers\src\_class_private_field_init.mjs133043735873567165 0
-47C:\Users\jdcuk\Desktop\01_Verti\dist\index.html133044569334848133 0
+47C:\Users\jdcuk\Desktop\01_Verti\dist\index.html133044581742224075 0
 97C:\Users\jdcuk\Desktop\01_Verti\node_modules\@swc\helpers\src\_class_private_field_loose_base.mjs133043735873577158 0
 96C:\Users\jdcuk\Desktop\01_Verti\node_modules\@swc\helpers\src\_class_private_field_loose_key.mjs133043735873587165 0
 91C:\Users\jdcuk\Desktop\01_Verti\node_modules\@swc\helpers\src\_class_private_method_get.mjs133043735873597161 0
@@ -4033,7 +4034,7 @@
 122C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-module\module.js133043735873177532 0
 127C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main-directory\nested133043735872829742 1
 133C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main-directory\package.json133043735873517159 0
-51C:\Users\jdcuk\Desktop\01_Verti\.idea\workspace.xml133044568547925223 0
+51C:\Users\jdcuk\Desktop\01_Verti\.idea\workspace.xml133044579967539803 0
 118C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main\main.js133043735873127533 0
 126C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\bar.js133043735872179863 0
 132C:\Users\jdcuk\Desktop\01_Verti\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\package.json133043735873487173 0
@@ -4403,9 +4404,9 @@
 60C:\Users\jdcuk\Desktop\01_Verti\node_modules\.bin\semver.cmd133043735786669334 0
 58C:\Users\jdcuk\Desktop\01_Verti\node_modules\.bin\svgo.cmd133043735786669334 0
 56C:\Users\jdcuk\Desktop\01_Verti\node_modules\.bin\terser133043735786669334 0
-59C:\Users\jdcuk\Desktop\01_Verti\dist\index.574c7455.css.map133044569922047633 0
-55C:\Users\jdcuk\Desktop\01_Verti\dist\pic01.bab3a2e5.jpg133044505193802931 0
-55C:\Users\jdcuk\Desktop\01_Verti\dist\pic04.5a36e9fc.jpg133044549753827592 0
-55C:\Users\jdcuk\Desktop\01_Verti\dist\pic07.7ba2fd93.jpg133044550403913070 0
+59C:\Users\jdcuk\Desktop\01_Verti\dist\index.574c7455.css.map133044575991249477 0
+55C:\Users\jdcuk\Desktop\01_Verti\dist\pic01.bab3a2e5.jpg133044570387383684 0
+55C:\Users\jdcuk\Desktop\01_Verti\dist\pic04.5a36e9fc.jpg133044570387383684 0
+55C:\Users\jdcuk\Desktop\01_Verti\dist\pic07.7ba2fd93.jpg133044570387773654 0
 50C:\Users\jdcuk\Desktop\01_Verti\.idea\01_Verti.iml133043735151641046 0
 49C:\Users\jdcuk\Desktop\01_Verti\.idea\modules.xml133043735151741043 0
