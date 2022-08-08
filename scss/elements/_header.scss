@@ -36,16 +36,18 @@ nav {
     opacity: 0;
     cursor: pointer;
     margin: 0;
+    transition: 0.5s;
     &:checked ~ .menu {
       width: 200px;
+      height: 100%;
       display: block;
       position: fixed;
       top: 0;
       left: 0;
       background-color: white;
-      height: 100%;
       border-right: 2px solid gray;
       padding: 12px;
+      //animation: show 0.7s alternate;
     }
     &:checked ~ .hamburger {
       left: 210px;
@@ -68,6 +70,7 @@ nav {
   height: 30px;
   background-color: rgba(0, 0, 0, 0.5);
   @include letFlex(row, center, center);
+  transition: 0.5s;
   .fa-bars {
     position: absolute;
     font-weight: 600;
@@ -76,8 +79,10 @@ nav {
   }
 }
 
-.menu {
+ul {
   display: none;
+  transition: 0.3s;
+  li {
+    transition: 0.3s;
+  }
 }
-
-

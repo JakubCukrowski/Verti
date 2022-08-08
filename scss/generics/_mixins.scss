@@ -16,3 +16,14 @@
   justify-content: $justify;
   align-items: $align;
 }
+
+@keyframes show {
+  from {
+    width: 0;
+    font-size: 0;
+  }
+  to {
+    width: 200px;
+    font-size: 1em;
+  }
+}

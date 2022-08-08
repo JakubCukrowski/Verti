@@ -35,6 +35,18 @@ table {
   border-spacing: 0;
 }
 
+@keyframes show {
+  from {
+    width: 0;
+    font-size: 0;
+  }
+
+  to {
+    width: 200px;
+    font-size: 1em;
+  }
+}
+
 header {
   flex-direction: row;
   justify-content: center;
@@ -78,6 +90,7 @@ nav #menu {
   opacity: 0;
   cursor: pointer;
   margin: 0;
+  transition: all .5s;
   position: fixed;
   top: 20px;
   left: 20px;
@@ -111,6 +124,7 @@ nav a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  transition: all .5s;
   display: flex;
   position: fixed;
   top: 20px;
@@ -124,8 +138,13 @@ nav a {
   position: absolute;
 }
 
-.menu {
+ul {
+  transition: all .3s;
   display: none;
+}
+
+ul li {
+  transition: all .3s;
 }
 
 .banner {
@@ -201,6 +220,12 @@ nav a {
 .continue-reading {
   background-color: #0090c5;
   margin-bottom: 2em;
+  color: #fff !important;
+}
+
+.more-btn {
+  background-color: #0090c5;
+  margin-top: 1em;
   color: #fff !important;
 }
 
@@ -289,6 +314,21 @@ body {
 
 .about-wrapper a {
   color: #0090c5;
+}
+
+.thumbnail-photos {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .8em;
+  display: flex;
+}
+
+.thumbnail-photos img {
+  width: 100%;
+  min-width: 10%;
+  border-radius: .7em;
+  margin-bottom: 1em;
 }
 
 /*# sourceMappingURL=index.574c7455.css.map */
