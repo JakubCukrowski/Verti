@@ -350,6 +350,10 @@ body {
   font-weight: 100;
 }
 
+.footer-wrapper .stuff p {
+  margin: 2em 0;
+}
+
 .icons {
   flex-direction: row;
   justify-content: flex-start;
