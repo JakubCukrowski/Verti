@@ -68,7 +68,7 @@ nav {
   left: 20px;
   width: 46px;
   height: 30px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
   @include letFlex(row, center, center);
   transition: 0.5s;
   .fa-bars {
