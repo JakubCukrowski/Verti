@@ -4,6 +4,8 @@
     border-right: none;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    min-width: 700px;
     flex-wrap: wrap;
   }
   h2 {
@@ -63,5 +65,18 @@
 
 .stuff-container {
   @include tablet {
+    width: 340px;
+  }
+}
+
+.contact-container {
+  @include letFlex(column, row, row);
+  width: 340px;
+}
+
+.copyright-container {
+  @include tablet {
+    margin: 1.5em auto;
+
   }
 }

@@ -432,9 +432,11 @@ body {
 
 @media screen and (min-width: 737px) {
   .footer-wrapper {
+    min-width: 700px;
     border-right: none;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
     display: flex;
   }
 }
@@ -497,6 +499,24 @@ body {
 @media screen and (min-width: 737px) {
   .horizontal-line {
     display: none;
+  }
+
+  .stuff-container {
+    width: 340px;
+  }
+}
+
+.contact-container {
+  justify-content: row;
+  align-items: row;
+  width: 340px;
+  flex-direction: column;
+  display: flex;
+}
+
+@media screen and (min-width: 737px) {
+  .copyright-container {
+    margin: 1.5em auto;
   }
 }
 
