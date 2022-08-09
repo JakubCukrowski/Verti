@@ -516,6 +516,7 @@ body {
 
 @media screen and (min-width: 737px) {
   .copyright-container {
+    text-align: center;
     margin: 1.5em auto;
   }
 }
