@@ -1,15 +1,27 @@
 .footer-wrapper {
   padding: $default-padding;
+  @include tablet {
+    border-right: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
   h2 {
     margin: 1.4em 0;
     font-weight: 800;
     font-size: 13pt;
     color: $colorText;
     text-align: left;
+    @include tablet {
+      font-size: 1.8em;
+    }
   }
   .stuff {
     line-height: 2.4em;
     font-size: 0.9em;
+    @include tablet {
+      font-size: 1.2em;
+    }
     a {
       color: #696969;
       font-weight: 100;
@@ -41,4 +53,15 @@
   color: $colorText;
   line-height: 2em;
   font-weight: 100;
+}
+
+.horizontal-line {
+  @include tablet {
+    display: none;
+  }
+}
+
+.stuff-container {
+  @include tablet {
+  }
 }
