@@ -1,8 +1,15 @@
+.footer {
+  padding-bottom: 6em;
+}
+
 .footer-wrapper {
   @include tablet {
     border-right: none;
     @include letFlex(column, space-between, flex-start);
     width: 100%;
+  }
+  @include desktop {
+    @include letFlex(row, center, center);
   }
   h2 {
     margin: 1.4em 0;

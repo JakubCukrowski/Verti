@@ -244,7 +244,7 @@ nav li a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 3.5em 4em;
+    padding: 2em;
     display: flex;
   }
 }
@@ -266,7 +266,7 @@ nav li a {
 @media screen and (min-width: 981px) {
   .banner h2 {
     text-align: left;
-    font-size: 4.2em;
+    font-size: 3.8em;
   }
 }
 
@@ -288,7 +288,7 @@ nav li a {
   .banner p {
     text-align: left;
     width: 70%;
-    font-size: 3.2em;
+    font-size: 2.5em;
   }
 }
 
@@ -590,6 +590,10 @@ body {
   margin-bottom: 1em;
 }
 
+.footer {
+  padding-bottom: 6em;
+}
+
 @media screen and (min-width: 737px) {
   .footer-wrapper {
     width: 100%;
@@ -597,6 +601,15 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 981px) {
+  .footer-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     display: flex;
   }
 }

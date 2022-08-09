@@ -7,7 +7,7 @@
     border-radius: 0.6em;
     @include desktop {
       @include letFlex(row, center, center);
-      padding: 3.5em 4em;
+      padding: 2em;
     }
   }
   h2 {
@@ -20,7 +20,7 @@
       font-size: 3.5em;
     }
     @include desktop {
-      font-size: 4.2em;
+      font-size: 3.8em;
       text-align: left;
     }
   }
@@ -34,7 +34,7 @@
       line-height: 1.25em;
     }
     @include desktop {
-      font-size: 3.2em;
+      font-size: 2.5em;
       text-align: left;
       width: 70%;
     }
