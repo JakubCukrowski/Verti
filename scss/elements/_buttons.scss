@@ -12,8 +12,20 @@
   border-radius: 8px;
   text-decoration: none;
   font-weight: 800;
+  @include desktop {
+    width: 350px;
+    padding: 0.5em 2em;
+  }
   .right-side {
     display: none;
+    @include desktop {
+      display: block;
+    }
+  }
+  .left-side-icon {
+    @include desktop {
+      display: none;
+    }
   }
   .fa-solid {
     font-size: 1.2em;
@@ -44,6 +56,9 @@
   @include tablet {
     font-size: 1.8em;
   }
+  @include desktop {
+    font-size: 1.2em !important;
+  }
 }
 
 .more-btn {
@@ -52,5 +67,9 @@
   margin-top: 1em;
   @include tablet {
     font-size: 1.8em;
+  }
+  @include desktop {
+    font-size: 1.2em !important;
+    width: 150px !important;
   }
 }

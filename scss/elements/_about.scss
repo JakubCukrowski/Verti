@@ -2,6 +2,15 @@
   width: 100%;
   background-color: white;
   padding: 40px 30px;
+  .container {
+    @include letFlex(row-reverse, center, flex-start);
+    gap: 5em;
+  }
+  .photo-wrapper {
+    @include desktop {
+      min-width: 300px;
+    }
+  }
   h2 {
     font-size: 13pt;
     font-weight: 800;
@@ -9,6 +18,9 @@
     margin-bottom: 1em;
     @include tablet {
       font-size: 2.5em;
+    }
+    @include desktop {
+      font-size: 1.4em;
     }
     &:nth-of-type(2) {
       margin-top: 2em;
@@ -23,6 +35,9 @@
     line-height: 2em;
     @include tablet {
       font-size: 1.1em;
+    }
+    @include desktop {
+      font-size: 0.9em;
     }
   }
   strong {

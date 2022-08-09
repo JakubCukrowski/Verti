@@ -1,4 +1,8 @@
 .section_second {
+  @include desktop {
+    @include letFlex(row, center, center);
+    gap: 1em;
+  }
   img {
     width: 100%;
     border-top-left-radius: 1em;
