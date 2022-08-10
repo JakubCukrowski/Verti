@@ -3,6 +3,7 @@
 }
 
 .footer-wrapper {
+  position: relative;
   @include tablet {
     border-right: none;
     @include letFlex(column, space-between, flex-start);
@@ -70,6 +71,11 @@
   @include tablet {
     width: 300px;
   }
+  li {
+    @include desktop {
+      font-size: 0.8em;
+    }
+  }
 }
 
 .contact-container {
@@ -81,6 +87,16 @@
   @include tablet {
     margin: 1.5em auto;
     text-align: center;
+  }
+  .none {
+    @include desktop {
+      display: none;
+    }
+  }
+  @include desktop {
+    @include letFlex(row, center, center);
+    position: absolute;
+    bottom: -100px;
   }
 }
 

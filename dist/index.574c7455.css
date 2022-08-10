@@ -74,6 +74,7 @@ header .logo {
   header .logo {
     flex-direction: row;
     gap: .8em;
+    margin: 3em 0;
   }
 }
 
@@ -594,6 +595,10 @@ body {
   padding-bottom: 6em;
 }
 
+.footer-wrapper {
+  position: relative;
+}
+
 @media screen and (min-width: 737px) {
   .footer-wrapper {
     width: 100%;
@@ -679,6 +684,12 @@ body {
   }
 }
 
+@media screen and (min-width: 981px) {
+  .stuff-container li {
+    font-size: .8em;
+  }
+}
+
 .contact-container {
   justify-content: row;
   align-items: row;
@@ -692,7 +703,24 @@ body {
     text-align: center;
     margin: 1.5em auto;
   }
+}
 
+@media screen and (min-width: 981px) {
+  .copyright-container .none {
+    display: none;
+  }
+
+  .copyright-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    bottom: -100px;
+  }
+}
+
+@media screen and (min-width: 737px) {
   .footer-row {
     width: 100%;
     flex-direction: row;
