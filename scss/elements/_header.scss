@@ -84,7 +84,6 @@ nav {
     left: 240px;
   }
   li {
-    padding: 1.2em 1em;
     border-top: 1px solid gray;
     font-size: 0.9em;
     @include desktop {
@@ -92,6 +91,16 @@ nav {
     }
     a {
       text-decoration: none;
+      color: $colorText;
+      font-size: 1.2em;
+      font-weight: 800;
+      padding: 0.5em 1em;
+      border-radius: 1em;
+      &:hover {
+        @include desktop {
+          background-color: white;
+        }
+      }
     }
   }
 }
@@ -118,12 +127,84 @@ nav {
 }
 
 .menu {
-  .dropdown-menu {
-    @include desktop {
-      display: none;
-      .dropdown-submenu {
-        display: none;
+  position: relative;
+  .dropdown-menu-element {
+    &:focus ~ .dropdown-menu {
+      @include desktop {
+        display: block;
+      }
+    }
+    &:hover ~ .dropdown-menu {
+      @include desktop {
+        display: block;
       }
     }
   }
+  .dropdown-menu {
+    @include desktop {
+      display: none;
+      position: absolute;
+      top: 130px;
+      background-color: white;
+      border-radius: 8px;
+      transition: 0.5s;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    &::before {
+      @include desktop {
+        content: "";
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        background-color: white;
+        top: -6px;
+        left: 16px;
+        transform: rotate(45deg);
+      }
+    }
+    @include desktop {
+      li {
+        @include desktop {
+          border-bottom: 1px solid gray;
+        }
+      }
+    }
+    a {
+      @include desktop {
+        border-radius: 0;
+        padding: 0 1em 0 1em;
+        background-color: transparent;
+        z-index: 100;
+        line-height: 36px;
+        font-weight: 100;
+      }
+    }
+  }
+  .dropdown-submenu {
+    @include desktop {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 50%;
+      left: 175px;
+      background-color: white;
+      width: 100%;
+      border-radius: 8px;
+      display: none;
+    }
+  }
 }
+
+.dropdown-submenu-element:hover ~ .dropdown-submenu {
+  @include desktop {
+    display: block;
+  }
+}
+
+.dropdown-submenu-element:focus ~ .dropdown-submenu {
+  @include desktop {
+    display: block;
+  }
+}
+
+
+
