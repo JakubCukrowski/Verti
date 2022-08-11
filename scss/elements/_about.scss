@@ -3,8 +3,10 @@
   background-color: white;
   padding: 40px 30px;
   .container {
-    @include letFlex(row-reverse, center, flex-start);
-    gap: 5em;
+    @include desktop {
+      @include letFlex(row-reverse, center, flex-start);
+      gap: 5em;
+    }
   }
   .photo-wrapper {
     @include desktop {

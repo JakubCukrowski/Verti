@@ -1,210 +1,131 @@
-header {
+h1 {
+  background-color: $colorLogo;
+  font-family: "Oleo Script", serif;
+  font-weight: 300;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 2.4em;
+  padding: 0.1em 0.275em;
+  margin-top: 1.4em;
+  letter-spacing: 0.08em;
+  @include tablet {
+    padding: 0.25em 0.2em 0.25em 0.2em;
+    font-size: 3.25em;
+  }
+  @include desktop {
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.header {
   @include letFlex(row, center, center);
   @include desktop {
-    @include letFlex(row, space-between, center);
+    justify-content: space-between;
+    width: 100%;
   }
   .logo {
     @include letFlex(column, center, center);
     @include desktop {
       flex-direction: row;
-      gap: 0.8em;
-      margin: 3em 0;
+      gap: 1.5em;
+    }
+    span {
+      font-size: 0.8em;
+      color: $colorText;
+      margin-top: 1em;
+      margin-bottom: 2em;
+      font-weight: 800;
+      @include desktop {
+        margin: 0;
+      }
     }
   }
-  h1 {
-    background: #ff4486;
-    color: #fff;
-    border-radius: 6px;
-    font-family: 'Oleo Script', serif;
-    font-weight: 400;
-    padding: 0.15em 0.4em 0.15em 0.4em;
-    font-size: 2em;
-    letter-spacing: 0.05em;
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 1.75em;
-    margin-bottom: 0.5em;
-    @include tablet {
-      font-size: 2.8em;
-      padding: 0.25em 0.6em 0.35em 0.7em;
-    }
-    @include desktop {
-      margin: 0;
-    }
-  }
-  span {
-    margin-bottom: 1.75em;
-    font-weight: 800;
-    font-size: 0.9em;
-    color: #696969;
-    @include tablet {
-      margin-bottom: 2.4em;
-    }
-    @include desktop {
-      margin-bottom: 0;
-    }
-  }
-}
-
-nav {
-  .menu {
-    padding: $default-padding;
+  .hamburger {
     position: fixed;
-    top: 0;
-    left: -230px;
-    width: 230px;
-    height: 100%;
-    background-color: white;
-    border-right: 1px solid gray;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    @include letFlex(row, center, center);
+    border-radius: 0.4em;
     transition: 0.5s;
     @include desktop {
-      position: static;
-      background-color: transparent;
-      border-right: none;
-      @include letFlex(row, space-between, center);
-      width: 100%;
-    }
-    .nav-welcome-button {
-      border-top: none;
-    }
-    .nav-hide-button {
       display: none;
-      @include desktop {
-        display: block;
-      }
     }
-  }
-  #menu {
-    display: none;
-  }
-  #menu:checked ~ .menu {
-    left: 0;
-  }
-  #menu:checked ~ .hamburger {
-    left: 240px;
-  }
-  li {
-    border-top: 1px solid gray;
-    font-size: 0.9em;
-    @include desktop {
-      border-top: none;
-    }
-    a {
-      text-decoration: none;
-      color: $colorText;
-      font-size: 1.2em;
-      font-weight: 800;
-      padding: 0.5em 1em;
-      border-radius: 1em;
-      &:hover {
-        @include desktop {
-          background-color: white;
-        }
-      }
-    }
-  }
-}
-
-.hamburger {
-  border-radius: 0.5em;
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  width: 46px;
-  height: 30px;
-  background-color: rgba(0, 0, 0, 0.1);
-  @include letFlex(row, center, center);
-  transition: 0.5s;
-  @include desktop {
-    display: none;
   }
   .fa-bars {
-    position: absolute;
     font-weight: 600;
+    font-size: 1.5em;
     color: white;
-    font-size: 24px;
   }
 }
 
 .menu {
-  position: relative;
-  .dropdown-menu-element {
-    &:focus ~ .dropdown-menu {
-      @include desktop {
-        display: block;
-      }
-    }
-    &:hover ~ .dropdown-menu {
-      @include desktop {
-        display: block;
-      }
-    }
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  border-right: 1px solid gray;
+  transition: 0.5s;
+  font-weight: 800;
+  padding: 0 8px;
+  overflow: auto;
+  @include desktop {
+    position: static;
+    @include letFlex(row, space-around, center);
+    overflow: hidden;
+    width: 100%;
+    background-color: transparent;
+    border-right: none;
   }
   .dropdown-menu {
     @include desktop {
       display: none;
-      position: absolute;
-      top: 130px;
-      background-color: white;
-      border-radius: 8px;
-      transition: 0.5s;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
-    &::before {
-      @include desktop {
-        content: "";
-        position: absolute;
-        width: 12px;
-        height: 12px;
-        background-color: white;
-        top: -6px;
-        left: 16px;
-        transform: rotate(45deg);
-      }
-    }
+  }
+  li {
+    border-top: 1px solid gray;
     @include desktop {
-      li {
-        @include desktop {
-          border-bottom: 1px solid gray;
-        }
+      border: 0;
+      padding: 10px 20px !important;
+    }
+    &:first-child {
+      padding: 1.3em 0;
+    }
+    li {
+      padding: 1.3em 0;
+      a {
+        margin-left: 10px;
       }
+    }
+    &:nth-of-type(1n) {
+      padding: 1.3em 0;
     }
     a {
-      @include desktop {
-        border-radius: 0;
-        padding: 0 1em 0 1em;
-        background-color: transparent;
-        z-index: 100;
-        line-height: 36px;
-        font-weight: 100;
-      }
-    }
-  }
-  .dropdown-submenu {
-    @include desktop {
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      position: absolute;
-      top: 50%;
-      left: 175px;
-      background-color: white;
-      width: 100%;
-      border-radius: 8px;
-      display: none;
+      text-decoration: none;
+      color: $colorText;
     }
   }
 }
 
-.dropdown-submenu-element:hover ~ .dropdown-submenu {
-  @include desktop {
-    display: block;
-  }
+#menu {
+  display: none;
 }
 
-.dropdown-submenu-element:focus ~ .dropdown-submenu {
-  @include desktop {
-    display: block;
+#menu {
+  &:checked ~ .menu {
+    left: 0;
+  }
+  &:checked ~ .hamburger {
+    left: 310px;
   }
 }
-
 
 
