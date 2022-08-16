@@ -117,8 +117,14 @@ h1 {
     }
   }
   .dropdown-submenu:not(:first-child) {
-    display: none;
+    @include desktop {
+      display: none;
+    }
   }
+}
+
+.welcome {
+  border-top: none !important;
 }
 
 .menu {
@@ -186,18 +192,22 @@ h1 {
 
 .dropdown-menu-element {
   border-bottom: none !important;
-  border-radius: 8px !important;
+  @include desktop {
+    border-radius: 8px !important;
+  }
 }
 
 .dropdown-submenu-wrapper {
   &:hover .dropdown-submenu {
-    display: block;
-    position: absolute;
-    background-color: white;
-    width: 160px;
-    border: 1px solid lightgray;
-    border-radius: 8px;
-    top: 50%;
-    left: 144px;
+    @include desktop {
+      display: block;
+      position: absolute;
+      background-color: white;
+      width: 160px;
+      border: 1px solid lightgray;
+      border-radius: 8px;
+      top: 50%;
+      left: 144px;
+    }
   }
 }
