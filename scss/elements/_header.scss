@@ -106,16 +106,18 @@ h1 {
       padding: 0 8px !important;
     }
     a {
-      padding: 10px 0 !important;
+      @include desktop {
+        padding: 10px 0 !important;
+      }
+        font-weight: 300;
+        font-size: 14px;
     }
     @include desktop {
       display: none;
     }
-    .dropdown-submenu {
-      @include desktop {
-        display: none;
-      }
-    }
+  }
+  .dropdown-submenu:not(:first-child) {
+    display: none;
   }
 }
 
@@ -169,15 +171,33 @@ h1 {
       z-index: 100;
       margin-top: 10px;
       border-radius: 10px;
+      border: 1px solid lightgrey;
     }
   }
   a {
-    border-bottom: 1px solid lightgray;
-    border-radius: 0;
+    display: block;
+    width: 100%;
+    @include desktop {
+      border-bottom: 1px solid lightgray;
+      border-radius: 0;
+    }
   }
 }
 
 .dropdown-menu-element {
   border-bottom: none !important;
   border-radius: 8px !important;
+}
+
+.dropdown-submenu-wrapper {
+  &:hover .dropdown-submenu {
+    display: block;
+    position: absolute;
+    background-color: white;
+    width: 160px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    top: 50%;
+    left: 144px;
+  }
 }
