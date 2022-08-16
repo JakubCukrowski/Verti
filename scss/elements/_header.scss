@@ -9,8 +9,8 @@ h1 {
   margin-top: 1.4em;
   letter-spacing: 0.08em;
   @include tablet {
-    padding: 0.25em 0.2em 0.25em 0.2em;
-    font-size: 3.25em;
+    padding: 0.1em 0.2em 0.1em 0.2em;
+    font-size: 3em;
   }
   @include desktop {
     margin: 0;
@@ -26,6 +26,7 @@ h1 {
   @include desktop {
     justify-content: space-between;
     width: 100%;
+    padding: 40px 12px !important;
   }
   .logo {
     @include letFlex(column, center, center);
@@ -54,6 +55,8 @@ h1 {
     @include letFlex(row, center, center);
     border-radius: 0.4em;
     transition: 0.5s;
+    cursor: pointer;
+    z-index: 100;
     @include desktop {
       display: none;
     }
@@ -65,7 +68,9 @@ h1 {
   }
 }
 
-.menu {
+.menu-wrapper {
+  display: block;
+  padding: 0 8px;
   position: fixed;
   top: 0;
   left: -300px;
@@ -75,8 +80,8 @@ h1 {
   border-right: 1px solid gray;
   transition: 0.5s;
   font-weight: 800;
-  padding: 0 8px;
   overflow: auto;
+  z-index: 100;
   @include desktop {
     position: static;
     @include letFlex(row, space-around, center);
@@ -84,48 +89,95 @@ h1 {
     width: 100%;
     background-color: transparent;
     border-right: none;
+    padding: 0;
   }
   .dropdown-menu {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top: -5px;
+      left: 20px;
+      transform: rotate(45deg);
+      background-color: white;
+    }
+    li {
+      padding: 0 8px !important;
+    }
+    a {
+      padding: 10px 0 !important;
+    }
     @include desktop {
       display: none;
     }
-  }
-  li {
-    border-top: 1px solid gray;
-    @include desktop {
-      border: 0;
-      padding: 10px 20px !important;
-    }
-    &:first-child {
-      padding: 1.3em 0;
-    }
-    li {
-      padding: 1.3em 0;
-      a {
-        margin-left: 10px;
+    .dropdown-submenu {
+      @include desktop {
+        display: none;
       }
     }
-    &:nth-of-type(1n) {
-      padding: 1.3em 0;
+  }
+}
+
+.menu {
+  @include desktop {
+    @include letFlex(row, space-between, center);
+
+  }
+  li {
+    @include desktop {
+      border-top: 0;
+      padding: 10px 10px;
     }
-    a {
-      text-decoration: none;
-      color: $colorText;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: $colorText;
+    border-top: 1px solid lightgray;
+    padding: 1.5em 0;
+    @include desktop {
+      padding: 4px 8px;
+      border-radius: 6px;
+      transition: 0.5s;
+      border-top: none;
+    }
+    &:hover {
+      @include desktop {
+        background-color: white;
+      }
     }
   }
 }
 
 #menu {
   display: none;
-}
-
-#menu {
-  &:checked ~ .menu {
+  &:checked ~ .menu-wrapper {
     left: 0;
   }
-  &:checked ~ .hamburger {
+  &:checked + label > .hamburger {
     left: 310px;
   }
 }
 
+.dropdown-wrapper {
+  &:hover .dropdown-menu {
+    @include desktop {
+      display: block;
+      position: absolute;
+      background-color: white;
+      z-index: 100;
+      margin-top: 10px;
+      border-radius: 10px;
+    }
+  }
+  a {
+    border-bottom: 1px solid lightgray;
+    border-radius: 0;
+  }
+}
 
+.dropdown-menu-element {
+  border-bottom: none !important;
+  border-radius: 8px !important;
+}

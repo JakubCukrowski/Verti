@@ -13,8 +13,9 @@
   text-decoration: none;
   font-weight: 800;
   @include desktop {
-    width: 350px;
-    padding: 0.5em 2em;
+    width: 420px;
+    padding: 0.5em 1.5em;
+    justify-content: space-between;
   }
   .right-side {
     display: none;
@@ -58,6 +59,7 @@
   }
   @include desktop {
     font-size: 1.2em !important;
+    justify-content: center !important;
   }
 }
 
